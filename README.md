@@ -8,7 +8,7 @@ After uploading your images, run the './deploy.py' script.
 
 # Samples:
 
-![Alt text](https://drive.google.com/open?id=1JQCoKZKsnajRlZ7JM2Ji1V4gXMXJ30Gg)
+![Alt text](https://github.com/sharan-dce/Face-Recognition/blob/master/face_detect.gif)
 
 
 #For training the models used yourself:
