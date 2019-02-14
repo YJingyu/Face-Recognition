@@ -11,7 +11,7 @@ After uploading your images, run the './deploy.py' script.
 ![Alt text](https://github.com/sharan-dce/Face-Recognition/blob/master/face_detect.gif)
 
 
-#For training the models used yourself:
+#For training the models used yourself
 You need to use the preprocessing files over the FDDB dataset, creating bitmap images to map to, for segmentation, resize the original images and the bitmaps to 64 x 64, for the neural net and save the 2 numpy arrays as 'images.npy' and 'outputs.npy' in the './face_detection' directory.
 Also, this dataset: http://conradsanderson.id.au/lfwcrop/ must be downloaded and the images must be placed in 'lfwcrop_color/faces'.
 Then simply run the './face_detection/train_segmentation.py' script to train the model. The version that gives the best test results will automatically be saved.
